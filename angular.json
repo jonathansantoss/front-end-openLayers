@@ -24,6 +24,9 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/ol/ol.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -88,6 +91,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -119,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Front-end-openLayers"
+    }
+  },
+  "defaultProject": "Front-end-openLayers",
+  "cli": {
+    "analytics": "d653ffb9-dbea-4be2-8965-a76d93484369"
+  }
 }

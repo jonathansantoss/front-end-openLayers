@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tracing around a polygon</title>
+    <!-- Pointer events polyfill for old browsers, see https://caniuse.com/#feat=pointer -->
+    <script src="https://unpkg.com/elm-pep"></script>
+  </head>
+  <body>
+    <div id="map" class="map"></div>
+    <form class="form-inline">
+        <mat-form-field appearance="fill">
+            <mat-label>Geometry type &nbsp;</mat-label>
+                <mat-select id="type" (selectionChange)="selectionChange($event)">
+                    <mat-option value="Polygon">Polygon</mat-option>
+                    <mat-option value="LineString">LineString</mat-option>
+                    <mat-option value="None">None</mat-option>
+                  </mat-select>
+        </mat-form-field>
+    </form>
+  </body>
+</html>
